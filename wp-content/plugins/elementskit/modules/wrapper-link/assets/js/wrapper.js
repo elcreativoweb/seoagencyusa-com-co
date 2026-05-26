@@ -1,0 +1,1 @@
+!function(n,t){"use strict";n("[data-wrapper-link]").on("click",(function(t){let e=n(this).data("wrapper-link"),r=e.url.match(/(https?:\/\/)/)"https://"+e.url;r&&(e.is_external"_blank"):window.open(r,"_self"))}))}(jQuery,window.elementorFrontend);
